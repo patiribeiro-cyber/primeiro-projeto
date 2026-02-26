@@ -46,9 +46,11 @@
             <ul>Acompanhamento e controle de demandas</ul>
             <ul>Atenção a detalhes e conformidade de informações</ul>
 
+</ul>
             <aside>
 
     </section>
+    <selection id="projetos">
     <h2>Projetos</h2>
 
     <article>Portifolio</article>
@@ -58,7 +60,37 @@
 
     </p>
 
-    <article>
+</article>
+    </section>
+        
+        <section id="habilidades"> 
+            <h2>habilidades e tecnologias</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>tecnologia</th>
+                    <th>nivel</th>
+                   <th>descricao</th>
+                </tr>
+       
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>HTML</td>
+                    <td>iniciante</td>
+                    <td>Estou aprendendo os fundamentos do HTML para criar a estrutura de páginas web.</
+                </tr>
+                <tr>
+
+                    <td>JAVASCRIPT</td>
+                    <td>iniciante</td>
+                    <td>Estou aprendendo os fundamentos do JavaScript para interatividade em páginas web.</td>
+                </tr>
+            </tbody>
+            </table>
+
+        </section>
 
         <section id=" projeto" <footer>
             <p>direitos reservados a Patrícia Ribeiro</p>
@@ -67,12 +99,47 @@
 
                 <p>Se quiser compartilhar sugestões, oportunidades ou trocar ideias, entre em contato.</p>
 
-                <address>
-                    email: <a href="mailto: patiribeiro@unochapeco.edu.br">patiribeiro@unochapeco.edu.br</a> <br>
-                    telefonne: <a href="telefone: 49998184925">49998184925</a>
+                <form action="">
+                    <label for="nome">nome</label>
+                    <input type="text" id="nome" name="nome" required><br>
 
-                </address>
-                </footer>
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="telefone">telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+
+                    <label for="assunto">assunto</label>
+                    <select name="assunto" id="assunto">
+                        <option value="sugestão">sugestão</option>
+                        <option value="oportunidade">oportunidade</option>
+                        <option value="ideias">ideias</option>
+
+                        <select>
+
+                            <br>
+
+                            <label for="mensagem">mensagem:</label><br>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                            <input type="checkbox" id="inscriao" name="inscricao">
+                            <label for="inscriao">Desejo me inscrever para receber novidades</label>
+
+                            <br>
+                            <input type="submit" value="Enviar">
+                            <form>
+
+                                </label>
+                        </select>
+
+
+                        </label>
+
+
+                        <form action=""></form>
+
+                        </address>
+                        </footer>
 </body>
 
 </html>
